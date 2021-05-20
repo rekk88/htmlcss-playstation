@@ -14,7 +14,7 @@ main{
     
     margin-top: 100px;
 }
-.jumbo{
+.jumbo_top{
     min-height: 500px;
 }
 .testo_jumbo{
@@ -22,7 +22,11 @@ main{
     margin-bottom: 20px;
 }
 
-
+.box{
+    height: 100px;
+    background-color: lightslategrey;
+    border: 1px solid;
+}
 
 
 
@@ -33,16 +37,19 @@ main{
 
 
 /*  debug   */
-
+.debug .test{
+    height: 100px;
+    background-color: lime;
+}
 .debug main{
     background-color: lightseagreen;
     border: 2px solid black;
     min-height: 500px;
 }
-.debug .jumbo{
+.debug .jumbo_top{
     background-color: blueviolet;
 
 }
-.debug .jumbo .container-fluid{
-    background-color: lightsalmon;
+.debug .jumbo_top .container-fluid{
+    /* background-color: lightsalmon; */
 }
