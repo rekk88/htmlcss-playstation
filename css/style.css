@@ -1,0 +1,48 @@
+header{
+    /* height: 100%; */
+    background-color: lightblue;
+}
+header .top{
+    background-color: black;
+    height: 25px;
+}
+header .bottom{
+    background-color: #ffffff;
+    height: 75px;
+}
+main{
+    
+    margin-top: 100px;
+}
+.jumbo{
+    min-height: 500px;
+}
+.testo_jumbo{
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  debug   */
+
+.debug main{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    min-height: 500px;
+}
+.debug .jumbo{
+    background-color: blueviolet;
+
+}
+.debug .jumbo .container-fluid{
+    background-color: lightsalmon;
+}
