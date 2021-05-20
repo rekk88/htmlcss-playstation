@@ -14,26 +14,34 @@ main{
     
     margin-top: 100px;
 }
-.jumbo_top{
+.jumbo_top,
+.takes_two{
     min-height: 500px;
 }
 .jumbo_bottom img{
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 }
 .testo_jumbo{
     background-color: lightgray;
     margin-bottom: 20px;
 }
-
+.thumbnail{
+    /* height: 100%; */
+    width: 100%;
+}
 /* */
-.box{
+.box_jumbo{
     /* height: 100px; */
     background-color: lightslategrey;
     border: 1px solid;
 }
 
-
+.box_console{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 
 
 
@@ -42,16 +50,30 @@ main{
 
 
 /*  debug   */
+.debug .box_console{
+    min-height: 400px;
+    background-color: maroon;
+}
+.debug .box_img_console{
+    min-height: 400px;
+    background-color: rgb(102, 43, 43);
+
+}
+
+
+
 .debug .test{
     height: 100px;
     background-color: lime;
+    border: 1px solid;
 }
 .debug main{
     background-color: lightseagreen;
     border: 2px solid black;
     min-height: 500px;
 }
-.debug .jumbo_top{
+.debug .jumbo_top,
+.debug .takes_two{
     background-color: blueviolet;
 
 }
