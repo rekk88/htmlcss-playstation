@@ -17,7 +17,6 @@ header .bottom{
     height: 75px;
 }
 main{
-    
     margin-top: 100px;
 }
 .jumbo_top,
@@ -25,7 +24,8 @@ main{
     min-height: 500px;
 }
 .jumbo_bottom img,
-.nuove_uscite img{
+.nuove_uscite img,
+.esplora_ps4 img{
     width: 100%;
     /* height: 100%; */
 }
