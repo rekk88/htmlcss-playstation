@@ -31,7 +31,8 @@ main{
 .playstation_plus img,
 .sconti_store img,
 .playstation_now img,
-.social_media img{
+.social_media img,
+footer img{
     width: 100%;
     /* height: 100%; */
 }
@@ -65,8 +66,16 @@ main{
     background-color: #161c3b;
 }
 
+footer{
+    background-color: #00439c;
+}
+footer ul{
+    list-style: none;
+}
 
-
+#ps_logo_footer{
+    max-width: 130px;
+}
 /*  debug   */
 .debug .box_console{
     min-height: 400px;
