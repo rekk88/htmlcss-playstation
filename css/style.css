@@ -28,7 +28,8 @@ main{
 .jumbo_bottom img,
 .nuove_uscite img,
 .esplora_ps4 img,
-.playstation_plus img{
+.playstation_plus img,
+.sconti_store img{
     width: 100%;
     /* height: 100%; */
 }
