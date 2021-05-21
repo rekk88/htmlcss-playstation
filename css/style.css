@@ -16,10 +16,10 @@ header .top{
 }
 header .bottom{
     background-color: #ffffff;
-    height: 75px;
+    /* height: 75px; */
 }
 main{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .jumbo_top,
 .takes_two{
