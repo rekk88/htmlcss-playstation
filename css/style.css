@@ -1,7 +1,9 @@
 .rounded_7{
     border-radius: .7rem !important;
 }
-
+.w_45{
+    width: 45% !important;
+}
 
 
 header{
@@ -25,7 +27,8 @@ main{
 }
 .jumbo_bottom img,
 .nuove_uscite img,
-.esplora_ps4 img{
+.esplora_ps4 img,
+.playstation_plus img{
     width: 100%;
     /* height: 100%; */
 }
@@ -37,6 +40,7 @@ main{
     /* height: 100%; */
     width: 100%;
 }
+
 /* */
 .box_jumbo{
     /* height: 100px; */
@@ -50,7 +54,9 @@ main{
     justify-content: center;
 }
 
-
+.playstation_plus{
+    background-color: #bebcbb;
+}
 
 
 
@@ -84,6 +90,7 @@ main{
     background-color: blueviolet;
 
 }
+
 .debug .jumbo_top .container-fluid{
     /* background-color: lightsalmon; */
 }
