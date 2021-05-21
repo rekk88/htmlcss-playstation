@@ -72,9 +72,16 @@ footer{
 footer ul{
     list-style: none;
 }
-
+footer #info{
+    text-decoration: underline;
+    cursor: pointer;
+}
 #ps_logo_footer{
     max-width: 130px;
+}
+#sie_logo{
+    width: 25%;
+    max-width: 140px;
 }
 /*  debug   */
 .debug .box_console{
