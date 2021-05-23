@@ -1,3 +1,9 @@
+img{
+    width: 100%;
+}
+.op_7{
+    opacity: 70%;
+}
 .rounded_7{
     border-radius: .7rem !important;
 }
@@ -10,6 +16,24 @@
 .my_4_5{
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
+}
+.mb_4_5{
+    margin-bottom: 2rem !important;
+}
+.mb_6{
+    margin-bottom: 5.5rem !important;
+}
+.lh_09{
+    line-height: 0.9 !important;
+}
+.light_blue{
+    color: #0876cf !important;
+}
+.border_b_2{
+    border-bottom: 2px solid #0876cf;
+}
+.fw_6{
+    font-weight: 600;
 }
 header{
     /* height: 100%; */
@@ -27,9 +51,13 @@ main{
     margin-top: 80px;
 }
 .takes_two{
-    min-height: 500px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    /* min-height: 670px; */
 }
-.jumbo_bottom img,
+/* .jumbo_bottom img,
 .nuove_uscite img,
 .esplora_ps4 img,
 .playstation_plus img,
@@ -38,8 +66,8 @@ main{
 .social_media img,
 footer img{
     width: 100%;
-    /* height: 100%; */
-}
+    
+} */
 .jumbo_top{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -66,12 +94,12 @@ footer img{
 }
 .box_selected{
     border: 2px solid #00439c;
-    ;
 }
 .box_console{
     display: flex;
     flex-flow: column;
     justify-content: center;
+    height: 100%; /*per dargli la stessa height dell'immagine a fianco*/
 }
 
 .playstation_plus{
@@ -126,12 +154,12 @@ footer #info{
 
 /*  debug   */
 .debug .box_console{
-    min-height: 400px;
-    background-color: maroon;
+    /* min-height: 400px; */
+    /* background-color: maroon; */
 }
 .debug .box_img_console{
-    min-height: 400px;
-    background-color: rgb(102, 43, 43);
+    /* min-height: 400px;
+    background-color: rgb(102, 43, 43); */
 
 }
 
@@ -143,9 +171,9 @@ footer #info{
     border: 1px solid;
 }
 .debug main{
-    background-color: lightseagreen;
-    border: 2px solid black;
-    min-height: 500px;
+    /* background-color: lightseagreen; */
+    /* border: 2px solid black; */
+    /* min-height: 500px; */
 }
 .debug .jumbo_top,
 .debug .takes_two{
