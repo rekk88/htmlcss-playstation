@@ -1,6 +1,10 @@
 img{
     width: 100%;
 }
+.btn_primary_black{
+    background-color: #212529;
+    border-color: #212529;
+}
 .op_7{
     opacity: 70%;
 }
@@ -75,7 +79,14 @@ header .navbar-light .navbar-nav .nav-link:hover {
 .nav-item .show .arrow{
     transform: rotate(180deg);
 }
-
+header #cerca{
+    height: 30px;
+    margin-top: 5px;
+}
+header #cerca img{
+    height: 100%;
+    width: auto;
+}
 main{
     margin-top: 85px;
 }
