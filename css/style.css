@@ -64,6 +64,12 @@ header .arrow{
     height: 1rem;
     width: auto;
 }
+header .ps5{
+    width: auto;
+}
+header .ps5 img{
+    width: 100%;
+}
 /* header .nav-link{
     color: black !important;
 } */
@@ -152,6 +158,7 @@ footer img{
     background-color: #d9dadc;
     color: black !important;
 }
+
 .playstation_now{
     background-color: #161c3b;
 }
@@ -199,6 +206,13 @@ footer #info{
 
 
 /*  debug   */
+
+.debug .ps5{
+    background-color: red;
+    /* height: 100px; */
+    /* width:auto; */
+    border: 1px solid black;
+}
 .debug .box_console{
     /* min-height: 400px; */
     /* background-color: maroon; */
