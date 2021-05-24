@@ -54,18 +54,24 @@ header .top{
 }
 header .bottom{
     background-color: #ffffff;
-    /* height: 75px; */
 }
 
-/* MOD DISPLAY CLASS nav-link */
-header .nav-link{
-    /* display: inline-block; */
-    /* padding-right: 0 !important; */
-}
 header .arrow{
     height: 1rem;
     width: auto;
 }
+/* header .nav-link{
+    color: black !important;
+} */
+header .navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+header .navbar-light .navbar-nav .nav-link:hover {
+
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: #0d6efd;
+}
+
 .nav-item .show .arrow{
     transform: rotate(180deg);
 }
