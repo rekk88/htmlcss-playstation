@@ -100,6 +100,7 @@ footer img{
     background-position: center;
     background-repeat: no-repeat;
     min-height: 670px;
+    background-size: cover;
 }
 .testo_jumbo{
     /* background-color: lightgray; */
