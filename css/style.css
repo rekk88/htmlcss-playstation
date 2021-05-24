@@ -41,14 +41,23 @@ header{
 }
 header .top{
     background-color: black;
-    height: 25px;
+    height: 30px;
+    position: relative;
+}
+#logo_sony{
+    height: 50%;
+    width: auto;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 header .bottom{
     background-color: #ffffff;
     /* height: 75px; */
 }
 main{
-    margin-top: 80px;
+    margin-top: 85px;
 }
 .takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
