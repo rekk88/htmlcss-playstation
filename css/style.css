@@ -66,12 +66,10 @@ header .arrow{
     height: 1rem;
     width: auto;
 }
-header .nav-link:focus .arrow{
-    /* transform: rotate(180deg); */
-}
-header .nav-link.show .arrow{
+.nav-item .show .arrow{
     transform: rotate(180deg);
 }
+
 main{
     margin-top: 85px;
 }
@@ -175,8 +173,8 @@ footer #info{
 @media(max-width: 991px){
   .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
     overflow-y: auto;
-      max-height: 90vh;
-      margin-top:10px;
+    max-height: 90vh;
+    margin-top:10px;
   }
 }
 
