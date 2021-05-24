@@ -60,17 +60,17 @@ header .bottom{
 /* MOD DISPLAY CLASS nav-link */
 header .nav-link{
     /* display: inline-block; */
-    padding-right: 0 !important;
+    /* padding-right: 0 !important; */
 }
-header .arrow::after{
-    display: inline-block;
-    /* margin-left: .255em; */
-    /* content: "\2665"; */
-    content: url(../img/chevron-down-solid.svg);
-    border-bottom: 0;
-    height: auto;
-    width: 25%; 
-    /* border-left: .3em solid transparent; */
+header .arrow{
+    height: 1rem;
+    width: auto;
+}
+header .nav-link:focus .arrow{
+    /* transform: rotate(180deg); */
+}
+header .nav-link.show .arrow{
+    transform: rotate(180deg);
 }
 main{
     margin-top: 85px;
