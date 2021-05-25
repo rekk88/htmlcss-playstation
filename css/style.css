@@ -13,6 +13,8 @@ img{
 .op_7{
     opacity: 70%;
 }
+
+/* spacing colors border-radius classes */
 .rounded_7{
     border-radius: .7rem !important;
 }
@@ -44,8 +46,9 @@ img{
 .fw_6{
     font-weight: 600;
 }
+
+/* header */
 header{
-    /* height: 100%; */
     background-color: lightblue;
 }
 header .top{
@@ -75,9 +78,7 @@ header .ps5{
 header .ps5 img{
     width: 85%;
 }
-/* header .nav-link{
-    color: black !important;
-} */
+
 header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
@@ -105,16 +106,12 @@ header .sub_link::before{
     vertical-align: middle;
     margin-right: 10px;
 }
+
+/* main */
 main{
     margin-top: 85px;
 }
-
-.takes_two{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position-x: center;
-    background-size: cover;
-}
-
+/* jumbo */
 .jumbo_top{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -123,13 +120,31 @@ main{
     background-size: cover;
 }
 .testo_jumbo{
-    /* background-color: lightgray; */
     margin-bottom: 20px;
 }
+/* jumbo bottom */
+.box_jumbo{
+    padding: 2px;
+    transition: transform 500ms;
+    
+}
 .thumbnail{
-    /* height: 100%; */
     width: 100%;
 }
+
+.box_jumbo:hover{
+    transform: translateY(-10%);
+
+}
+/* takes two jumbo */
+.takes_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position-x: center;
+    background-size: cover;
+}
+
+
+/* button acquista ora */
 .acquista_ora{
     background-color: #cd3d0f;
 }
@@ -138,17 +153,9 @@ main{
     background-color: #e95827;
 
 }
+
 /* */
-.box_jumbo{
-    padding: 2px;
-    transition: transform 500ms;
-    
-}
 
-.box_jumbo:hover{
-    transform: translateY(-10%);
-
-}
 .box_selected{
     border: 2px solid #00439c;
 }
@@ -159,6 +166,8 @@ main{
     height: 100%; /*per dargli la stessa height dell'immagine a fianco*/
 }
 
+
+/* playstation plus */
 .playstation_plus{
     background-color: #bebcbb;
 }
@@ -170,6 +179,8 @@ main{
 .ps_plus_btn:hover{
     background-color: #acadaf;
 }
+
+/* playstation now */
 .ps_now_btn{
     background-color: #d9dadc;
     color: black !important;
@@ -181,11 +192,15 @@ main{
 .playstation_now{
     background-color: #161c3b;
 }
+
+/* nuove uscite */
 .nuove_uscite .box_img:hover{
     
     box-shadow: 10px 5px 10px rgb(70, 69, 69), -10px -5px 10px rgb(70, 69, 69),10px -5px 10px rgb(70, 69, 69), -10px 5px 10px rgb(70, 69, 69);
     transition: box-shadow 0.5s;
 }
+
+/* footer */
 footer{
     background-color: #00439c;
 }
@@ -212,7 +227,7 @@ footer #info{
 }
 
 
-/*menu css*/
+/*      menu nav bar        */
 .navbar .megamenu{ padding: 1rem; }
 
 /*  desktop view  */
