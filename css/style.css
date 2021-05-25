@@ -5,6 +5,11 @@ img{
     background-color: #212529;
     border-color: #212529;
 }
+.btn_primary_black:hover{
+    background-color:#3d3f42 !important;
+    border-color: #3d3f42 !important;;
+}
+
 .op_7{
     opacity: 70%;
 }
@@ -86,7 +91,6 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 header #cerca{
     height: 30px;
-    /* margin-top: 5px; */
 }
 header #cerca img{
     height: 100%;
@@ -104,6 +108,7 @@ header .sub_link::before{
 main{
     margin-top: 85px;
 }
+
 .takes_two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position-x: center;
@@ -128,12 +133,21 @@ main{
 .acquista_ora{
     background-color: #cd3d0f;
 }
+
+.acquista_ora:hover{
+    background-color: #e95827;
+
+}
 /* */
 .box_jumbo{
-    /* height: 100px; */
-    /* background-color: lightslategrey;
-    border: 1px solid; */
     padding: 2px;
+    transition: transform 500ms;
+    
+}
+
+.box_jumbo:hover{
+    transform: translateY(-10%);
+
 }
 .box_selected{
     border: 2px solid #00439c;
@@ -151,21 +165,38 @@ main{
 .ps_plus_btn{
     background-color: #d9dadc;
     color: #2d64e6 !important;
+
+}
+.ps_plus_btn:hover{
+    background-color: #acadaf;
 }
 .ps_now_btn{
     background-color: #d9dadc;
     color: black !important;
 }
-
+.ps_now_btn:hover{
+    background-color: #111f66;
+    color:#d9dadc !important;
+}
 .playstation_now{
     background-color: #161c3b;
 }
-
+.nuove_uscite .box_img:hover{
+    
+    box-shadow: 10px 5px 10px rgb(70, 69, 69), -10px -5px 10px rgb(70, 69, 69),10px -5px 10px rgb(70, 69, 69), -10px 5px 10px rgb(70, 69, 69);
+    transition: box-shadow 0.5s;
+}
 footer{
     background-color: #00439c;
 }
 footer ul{
     list-style: none;
+}
+footer ul li{
+    transition: color 1s;
+}
+footer ul li:hover{
+    color: #212529 !important;
 }
 footer #info{
     text-decoration: underline;
@@ -174,6 +205,7 @@ footer #info{
 #ps_logo_footer{
     max-width: 130px;
 }
+
 #sie_logo{
     width: 25%;
     max-width: 140px;
