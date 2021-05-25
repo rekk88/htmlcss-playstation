@@ -68,7 +68,7 @@ header .ps5{
     width: auto;
 }
 header .ps5 img{
-    width: 100%;
+    width: 85%;
 }
 /* header .nav-link{
     color: black !important;
@@ -77,7 +77,6 @@ header .navbar-light .navbar-nav .nav-link {
     color: black;
 }
 header .navbar-light .navbar-nav .nav-link:hover {
-
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     color: #0d6efd;
 }
@@ -87,11 +86,10 @@ header .navbar-light .navbar-nav .nav-link:hover {
 }
 header #cerca{
     height: 30px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 header #cerca img{
     height: 100%;
-    width: auto;
 }
 main{
     margin-top: 85px;
@@ -101,17 +99,7 @@ main{
     background-position-x: center;
     background-size: cover;
 }
-/* .jumbo_bottom img,
-.nuove_uscite img,
-.esplora_ps4 img,
-.playstation_plus img,
-.sconti_store img,
-.playstation_now img,
-.social_media img,
-footer img{
-    width: 100%;
-    
-} */
+
 .jumbo_top{
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
@@ -185,62 +173,22 @@ footer #info{
 /*menu css*/
 .navbar .megamenu{ padding: 1rem; }
 
-/* ============ desktop view ============ */
-@media all and (min-width: 992px) {
+/*  desktop view  */
+@media screen and (min-width: 992px) {
 
   .navbar .has-megamenu{position:static!important;}
   .navbar .megamenu{left:0; right:0; width:100%; margin-top:-1px;  }
 
 }	
-/* ============ desktop view .end// ============ */
+/*  desktop view fine */
 
-/* ============ mobile view ============ */
-@media(max-width: 991px){
+/*  mobile view  */
+@media screen and (max-width: 991px){
   .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
     overflow-y: auto;
     max-height: 90vh;
     margin-top:10px;
   }
 }
+/*  mobile view  */
 
-
-
-/*  debug   */
-
-.debug .ps5{
-    background-color: red;
-    /* height: 100px; */
-    /* width:auto; */
-    border: 1px solid black;
-}
-.debug .box_console{
-    /* min-height: 400px; */
-    /* background-color: maroon; */
-}
-.debug .box_img_console{
-    /* min-height: 400px;
-    background-color: rgb(102, 43, 43); */
-
-}
-
-
-
-.debug .test{
-    height: 100px;
-    background-color: lime;
-    border: 1px solid;
-}
-.debug main{
-    /* background-color: lightseagreen; */
-    /* border: 2px solid black; */
-    /* min-height: 500px; */
-}
-.debug .jumbo_top,
-.debug .takes_two{
-    background-color: blueviolet;
-
-}
-
-.debug .jumbo_top .container-fluid{
-    /* background-color: lightsalmon; */
-}
